@@ -194,14 +194,14 @@ console.log(som);
 //ex14
 console.log("----------------ex14--------------------");
 
-let text2 = prompt("Digite uma palavra");
+const troca = "Azul é mto bom, Azul é a melhor cor do mundo";
 
 
-function contarCaracteres(str) {
-    return str.length;
+function substituirPalavra() {
+  console.log(troca.replace(/Azul/g, "Vermelho"));
   }
-  
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+
+  substituirPalavra();
 
 
 
